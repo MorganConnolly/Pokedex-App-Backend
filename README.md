@@ -20,6 +20,25 @@
 ### Email Sent After Login
 <img width="453" height="465" alt="Screenshot 2025-07-23 at 15 31 29" src="https://github.com/user-attachments/assets/e53e3dad-f390-4683-a8aa-afa1db1b96bb" />
 
+## Learning Summary
+### Docker
+Enables the API to be package with its dependencies using the docker-compose.yml file. So, running it is as simple as "sail up -d" which runs the container group including laravel, mailpit and postgres.
+### PHP
+Handles logic for authentication, request processing, database interaction and returning responses.
+### Why Laravel?
+A PHP framework designed to streamline web and API development with elegant syntax, built-in tools and modular structure. It achives this through controllers, services and models which each contain PHP to handle a separate part of the logic.
+### Controllers
+Laravel controllers handle HTTP requests and can employ services or models, keeping things clean and modularised.
+### RESTAPIs
+Has standardised HTTP methods: GET, POST, PUT, DELETE. Aims to provide a stateless, uniform interface that's scalable and easy to integrate. More info: https://aws.amazon.com/what-is/restful-api/
+### API Authentication
+There are a few types of authentication: API key, Bearer Token/Token-Based & OAuth. This API uses tokens, provided after a user registers or logs in, so Sanctum can securely identify which user a request originates from, and so access their data.
+### Why PostgreSQL?
+An open-source highly-scalable object-relational database system known for its reliability and advanced feature set.
+### Migrations, Factories & Seeders
+Migrations are version-controlled scripts which define and modify your database schema. Factories generate fake data for testing using eloquent. Seeders poplate the database with initial or sample data using factories.
+### The Mail Component & Mailpit
+The mail component allows the creation of a mail controller which can pass variables to propagate a blade template that's sent to the user. Mailpit intercepts these, preventing them from actually being sent to addresses and allowing developers to analyse their results.
 
 ## API Usage
 All requests require the headers:
@@ -85,23 +104,3 @@ All requests require the headers:
 - Method: DELETE
 - /favs/[ID]
 - Authentication Required: Bearer Token
-
-## Learning Summary
-### Docker
-Enables the API to be package with its dependencies using the docker-compose.yml file. So, running it is as simple as "sail up -d" which runs the container group including laravel, mailpit and postgres.
-### PHP
-Handles logic for authentication, request processing, database interaction and returning responses.
-### Why Laravel?
-A PHP framework designed to streamline web and API development with elegant syntax, built-in tools and modular structure. It achives this through controllers, services and models which each contain PHP to handle a separate part of the logic.
-### Controllers
-Laravel controllers handle HTTP requests and can employ services or models, keeping things clean and modularised.
-### RESTAPIs
-Has standardised HTTP methods: GET, POST, PUT, DELETE. Aims to provide a stateless, uniform interface that's scalable and easy to integrate. More info: https://aws.amazon.com/what-is/restful-api/
-### API Authentication
-There are a few types of authentication: API key, Bearer Token/Token-Based & OAuth. This API uses tokens, provided after a user registers or logs in, so Sanctum can securely identify which user a request originates from, and so access their data.
-### Why PostgreSQL?
-An open-source highly-scalable object-relational database system known for its reliability and advanced feature set.
-### Migrations, Factories & Seeders
-Migrations are version-controlled scripts which define and modify your database schema. Factories generate fake data for testing using eloquent. Seeders poplate the database with initial or sample data using factories.
-### The Mail Component & Mailpit
-The mail component allows the creation of a mail controller which can pass variables to propagate a blade template that's sent to the user. Mailpit intercepts these, preventing them from actually being sent to addresses and allowing developers to analyse their results.
