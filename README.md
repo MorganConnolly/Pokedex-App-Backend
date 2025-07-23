@@ -9,7 +9,7 @@
 6. Generate Laravel app key: ./vendor/bin/sail artisan key:generate
 7. (Optional) Open mailpit on localhost:8025
 
-## Tools Used
+## Tech Stack
 - Docker & OrbStack for containerisation & dependency handling.
 - PHP to power the router, controllers, middleware, models and database access.
 - SQL & PostgreSQL for database structure.
