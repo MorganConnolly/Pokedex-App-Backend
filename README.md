@@ -18,7 +18,7 @@
 
 ## Screenshots
 ### Email Sent After Login
-<img width="680" height="697" alt="Screenshot 2025-07-23 at 15 31 29" src="https://github.com/user-attachments/assets/fad87270-2767-4423-957b-ab2f3ddfe13b" />
+<img width="340" height="348" alt="Screenshot 2025-07-23 at 15 31 29" src="https://github.com/user-attachments/assets/fad87270-2767-4423-957b-ab2f3ddfe13b" />
 
 
 ## API Usage
