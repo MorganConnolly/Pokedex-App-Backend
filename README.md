@@ -25,7 +25,7 @@
 All requests require the headers:
 - 'Accept: application/json'
 - 'Content-Type: application/json'
-# Register 
+### Register 
 - Method: POST
 - /api/register
 - Authentication Not Required
@@ -37,7 +37,7 @@ All requests require the headers:
 - Reponse Body: {
     token: value
 }
-# Login
+### Login
 - Method: POST
 - /api/login
 - Authentication Not Required
@@ -48,11 +48,11 @@ All requests require the headers:
 - Reponse Body: {
     token: value
 }
-# Logout
+### Logout
 - Method: POST
 - /api/logout
 - Authentication Required: Bearer Token
-# Favourite Pokemon Summary
+### Favourite Pokemon Summary
 - Method: GET
 - /favs/
 - Authentication Required: Bearer Token
@@ -62,7 +62,7 @@ All requests require the headers:
         ...
     ]
 }
-# Create a Favourite
+### Create a Favourite
 - Method: POST
 - /favs/
 - Authentication Required: Bearer Token
@@ -72,7 +72,7 @@ All requests require the headers:
     data: {...},
 }
 - Response Body: N/A
-# Retrieve Details of a Favourite
+### Retrieve Details of a Favourite
 - Method: GET
 - /favs/[ID]
 - Authentication Required: Bearer Token
@@ -81,7 +81,7 @@ All requests require the headers:
     colour: value,
     data: {...},
 }
-# Delete a Favourite
+### Delete a Favourite
 - Method: DELETE
 - /favs/[ID]
 - Authentication Required: Bearer Token
