@@ -8,7 +8,7 @@
 - React Native, Zustand, JS, etc for frontend: https://github.com/MorganConnolly/Pokedex-App-Backend
 
 ## Setup
-1. Clone the repo: https://github.com/MorganConnolly/Pokedex-App-Backend
+1. Clone the repo: https://github.com/MorganConnolly/Pokedex-App-Frontend
 2. Install PHP dependancies: composer install
 3. Create .env file: cp .env.example .env
 4. Start Docker containers: ./vendor/bin/sail up -d
