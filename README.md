@@ -15,6 +15,7 @@
 5. Insall Node dependnecies via Sail: ./vendor/bin/sail npm install
 6. Generate Laravel app key: ./vendor/bin/sail artisan key:generate
 7. (Optional) Open mailpit on localhost:8025
+8. Setup frontend: https://github.com/MorganConnolly/Pokedex-App-Frontend
 
 ## Screenshots
 ### Email Sent After Login
