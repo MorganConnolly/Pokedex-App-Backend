@@ -5,10 +5,10 @@
 - PHP to power the router, controllers, middleware, models and database access.
 - SQL & PostgreSQL for database structure.
 - Laravel with Sanctum for API authentication and Eloquent for database interaction.
-- React Native, Zustand, JS, etc for frontend: https://github.com/MorganConnolly/Pokedex-App-Backend
+- React Native, Zustand, JS, etc for frontend: https://github.com/MorganConnolly/Pokedex-App-Frontend
 
 ## Setup
-1. Clone the repo: https://github.com/MorganConnolly/Pokedex-App-Frontend
+1. Clone the repo: https://github.com/MorganConnolly/Pokedex-App-Backend
 2. Install PHP dependancies: composer install
 3. Create .env file: cp .env.example .env
 4. Start Docker containers: ./vendor/bin/sail up -d
