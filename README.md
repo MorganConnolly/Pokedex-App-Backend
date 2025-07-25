@@ -13,7 +13,7 @@
 3. Create .env file: cp .env.example .env
 4. Install Sail: php artisan sail:install
 5. Start Docker containers: ./vendor/bin/sail up -d
-6. Insall Node dependnecies via Sail: ./vendor/bin/sail npm install
+6. Install Node dependnecies via Sail: ./vendor/bin/sail npm install
 7. Generate Laravel app key: ./vendor/bin/sail artisan key:generate
 8. (Optional) Open mailpit on localhost:8025
 9. Setup frontend: https://github.com/MorganConnolly/Pokedex-App-Frontend
